@@ -1,53 +1,30 @@
-import readlineSync from 'readline-sync';
-import getName from './cli.js';
-import { congratulateUser, getRandomNum, showIncorrectAnswerMessage } from './shared.js';
+import getRandomNum from './shared.js';
+import generalLogicGame from './index.js';
 
-const showGameRules = () => {
-  console.log('What is the result of the expression?');
-};
+const gameRules = 'What is the result of the expression?';
 
-function getRandomArrayElement(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
-}
-
-const gameCalc = () => {
-  const userName = getName();
-  const successAnswer = 3;
-  showGameRules();
-
-  const symbolMathOperation = ['+', '-', '*'];
-  for (let i = 1; i <= successAnswer; i++) {
-    const randomFirstNum = getRandomNum(1, 50);
-    const randomSecondNum = getRandomNum(1, 20);
-    const randomSymbol = getRandomArrayElement(symbolMathOperation);
-    const question = `${randomFirstNum} ${randomSymbol} ${randomSecondNum}`;
-    const userAnswer = readlineSync.question(
-      `Question: ${question}\nYour answer: `,
-    );
-    let expectedAnswer = 0;
-    switch (randomSymbol) {
-      case '+':
-        expectedAnswer = randomFirstNum + randomSecondNum;
-        break;
-      case '-':
-        expectedAnswer = randomFirstNum - randomSecondNum;
-        break;
-      case '*':
-        expectedAnswer = randomFirstNum * randomSecondNum;
-        break;
-      default:
-        return null;
-    }
-
-    const isCorrectAnswer = expectedAnswer === Number(userAnswer);
-    if (isCorrectAnswer) {
-      console.log('Correct!');
-    } else if (!isCorrectAnswer) {
-      i = 0;
-      showIncorrectAnswerMessage(userAnswer, expectedAnswer, userName);
-    }
+const getRansomArrElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const getCorrectAnswer = (num1, num2, operator) => {
+  switch (operator) {
+    case '+':
+      return num1 + num2;
+    case '-':
+      return num1 - num2;
+    case '*':
+      return num1 * num2;
+    default:
+      return false;
   }
-  return congratulateUser(userName);
+};
+const getData = () => {
+  const symbolMathOperation = ['+', '-', '*'];
+  const randomNum1 = getRandomNum(1, 50);
+  const randomNum2 = getRandomNum(1, 10);
+  const randomSymbol = getRansomArrElement(symbolMathOperation);
+  const correctAnswer = getCorrectAnswer(randomNum1, randomNum2, randomSymbol);
+  const question = `${randomNum1} ${randomSymbol} ${randomNum2}`;
+  return [question, correctAnswer];
 };
 
+const gameCalc = () => generalLogicGame(gameRules, getData);
 export default gameCalc;
