@@ -7,7 +7,7 @@
 ```
   
   npm install
-  make brain-even (or any name from game list below)
+  make brain-even # (or any name from game list below)
   
 ```
 <h2>Game list:</h2>
