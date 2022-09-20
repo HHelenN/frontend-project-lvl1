@@ -9,3 +9,5 @@ Brain gcd:
 <a href="https://asciinema.org/a/bKNLdjboZDZBI5aPiWph1PjhI" target="_blank"><img src="https://asciinema.org/a/bKNLdjboZDZBI5aPiWph1PjhI.svg" /></a>
 Brain progression:
 <a href="https://asciinema.org/a/lVF4fth4FGqv0LQsKlQMlQt35" target="_blank"><img src="https://asciinema.org/a/lVF4fth4FGqv0LQsKlQMlQt35.svg" /></a>
+Brain prime:
+<a href="https://asciinema.org/a/FMpq5V7wuoUzpN8qdxBtxDyi1" target="_blank"><img src="https://asciinema.org/a/FMpq5V7wuoUzpN8qdxBtxDyi1.svg" /></a>
