@@ -5,7 +5,7 @@ const generalLogicGame = (gameRules, getData) => {
   const userName = getName();
   const roundsCount = 3;
   console.log(gameRules);
-  for (let i = 1; i <= roundsCount; i++) {
+  for (let i = 1; i <= roundsCount; i += 1) {
     const [question, correctAnswer] = getData();
     const userAnswer = readlineSync.question(
       `Question: ${question}\nYour answer: `,
