@@ -13,9 +13,9 @@ const generalLogicGame = (gameRules, getData) => {
     if (String(userAnswer) === String(correctAnswer)) {
       console.log('Correct!');
     } else {
-      i = 0;
       console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`);
       console.log(`Let's try again, ${userName}!`);
+      return;
     }
   }
   console.log(`Congratulations, ${userName}!`);
