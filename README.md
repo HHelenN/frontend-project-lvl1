@@ -20,12 +20,11 @@
 </ul>
 <h1>Game examples</h1>
 <h3>Brain even:</h3>
-<a href="https://asciinema.org/a/r4eD7OI1uCVxoiCl5B2azRONn" target="_blank"><img src="https://asciinema.org/a/r4eD7OI1uCVxoiCl5B2azRONn.svg" /></a>
-<h3>Brain calc:</h3>
-<a href="https://asciinema.org/a/QAp1esxsoHT0clrMcB31wEtJE" target="_blank"><img src="https://asciinema.org/a/QAp1esxsoHT0clrMcB31wEtJE.svg" /></a>
+<a href="https://asciinema.org/a/Gnt6JN4ur7UULFsIDZWTHqfkW" target="_blank"><img src="https://asciinema.org/a/Gnt6JN4ur7UULFsIDZWTHqfkW.svg" /></a><h3>Brain calc:</h3>
+<a href="https://asciinema.org/a/uNIsnCaSXWZuHuxDhq3QMCJDR" target="_blank"><img src="https://asciinema.org/a/uNIsnCaSXWZuHuxDhq3QMCJDR.svg" /></a>
 <h3>Brain gcd:</h3>
-<a href="https://asciinema.org/a/bKNLdjboZDZBI5aPiWph1PjhI" target="_blank"><img src="https://asciinema.org/a/bKNLdjboZDZBI5aPiWph1PjhI.svg" /></a>
+<a href="https://asciinema.org/a/ALtN7id9arjpzntoFAHyhxcsD" target="_blank"><img src="https://asciinema.org/a/ALtN7id9arjpzntoFAHyhxcsD.svg" /></a>
 <h3>Brain progression:</h3>
-<a href="https://asciinema.org/a/lVF4fth4FGqv0LQsKlQMlQt35" target="_blank"><img src="https://asciinema.org/a/lVF4fth4FGqv0LQsKlQMlQt35.svg" /></a>
+<a href="https://asciinema.org/a/k4lL2tHyQ6yCz7SlBcOH9GaCu" target="_blank"><img src="https://asciinema.org/a/k4lL2tHyQ6yCz7SlBcOH9GaCu.svg" /></a>
 <h3>Brain prime:</h3>
-<a href="https://asciinema.org/a/FMpq5V7wuoUzpN8qdxBtxDyi1" target="_blank"><img src="https://asciinema.org/a/FMpq5V7wuoUzpN8qdxBtxDyi1.svg" /></a>
+<a href="https://asciinema.org/a/cRNQLoRnZlwUJyfI0XHigvdNF" target="_blank"><img src="https://asciinema.org/a/cRNQLoRnZlwUJyfI0XHigvdNF.svg" /></a>
