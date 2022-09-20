@@ -1,7 +1,16 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/HHelenN/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/HHelenN/frontend-project-lvl1/actions)
 <a href="https://codeclimate.com/github/HHelenN/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/b008e370353306b2f81d/maintainability" /></a><br/>
-<h1>Game instruction:</h1>
+<h1>Game instruction</h1>
+<h2>Get start</h2>
+
+```
+  
+  npm install
+  make brain-even (or any name from game list below)
+  
+```
+<h2>Game list:</h2>
 <ul>
   <li>1. brain-even - parity check </li>
   <li>2. brain-calc - simple expression evaluation</li>
