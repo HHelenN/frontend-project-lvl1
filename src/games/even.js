@@ -1,5 +1,5 @@
-import getRandomNum from './shared.js';
-import generalLogicGame from './index.js';
+import { getRandomNum } from '../shared.js';
+import generalLogicGame from '../index.js';
 
 const gameRules = 'Answer "yes" is the number is even, otherwise answer "no".';
 const isEven = (num) => num % 2 === 0;

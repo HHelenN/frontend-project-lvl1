@@ -1,5 +1,5 @@
-import generalLogicGame from './index.js';
-import { getRandomNum, getGcd } from './shared.js';
+import generalLogicGame from '../index.js';
+import { getRandomNum, getGcd } from '../shared.js';
 
 const gameRules = 'Find the greatest common divisor of given numbers.';
 

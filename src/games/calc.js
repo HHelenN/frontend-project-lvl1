@@ -1,5 +1,5 @@
-import getRandomNum from './shared.js';
-import generalLogicGame from './index.js';
+import { getRandomNum } from '../shared.js';
+import generalLogicGame from '../index.js';
 
 const gameRules = 'What is the result of the expression?';
 

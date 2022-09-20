@@ -1,5 +1,5 @@
-import generalLogicGame from './index.js';
-import { getRandomNum } from './shared.js';
+import generalLogicGame from '../index.js';
+import { getRandomNum } from '../shared.js';
 
 const gameRules = 'What number is missing in the progression?';
 
