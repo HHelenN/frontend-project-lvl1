@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import getName from './cli.js';
+import getName from './games/cli.js';
 
 const generalLogicGame = (gameRules, getData) => {
   const userName = getName();
@@ -10,7 +10,7 @@ const generalLogicGame = (gameRules, getData) => {
     const userAnswer = readlineSync.question(
       `Question: ${question}\nYour answer: `,
     );
-    if (Number(userAnswer) === Number(correctAnswer)) {
+    if (String(userAnswer) === String(correctAnswer)) {
       console.log('Correct!');
     } else {
       i = 0;
